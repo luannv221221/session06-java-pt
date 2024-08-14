@@ -1,6 +1,7 @@
 package ra.demo3;
 
 public class Circle {
+    public static final double PI = 3.14;
     private double r;
 
     public Circle() {
@@ -19,8 +20,11 @@ public class Circle {
     }
 
     public double getS(){
-        return 2*3.14*this.r;
+        return 2*PI*this.r;
     }
 
     // phương tính chu vi hình tròn
+    public double getCV(){
+        return  2 *PI* 3.14;
+    }
 }
